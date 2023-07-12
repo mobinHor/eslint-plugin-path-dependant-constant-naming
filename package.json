@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-constants",
+  "name": "eslint-plugin-path-dependant-constant-naming",
   "version": "0.0.10",
   "description": "rules for constants",
   "keywords": [

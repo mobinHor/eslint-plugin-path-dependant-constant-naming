@@ -1,4 +1,4 @@
-# eslint-plugin-constants
+# eslint-plugin-path-dependant-constant-naming
 
 rules for constants
 
@@ -10,10 +10,10 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-constants`:
+Next, install `eslint-plugin-path-dependant-constant-naming`:
 
 ```sh
-npm install eslint-plugin-constants --save-dev
+npm install eslint-plugin-path-dependant-constant-naming --save-dev
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Add `constants` to the plugins section of your `.eslintrc` configuration file. Y
 ```json
 {
     "plugins": [
-        "constants"
+        "path-dependant-constant-naming"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "constants/rule-name": 2
+        "path-dependant-constant-naming/rule-name": 2
     }
 }
 ```

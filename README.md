@@ -135,18 +135,14 @@ Add `constants` to the plugins section of your `.eslintrc` configuration file. Y
 
 Then configure the rules you want to use under the rules section.
 
+you should pass in rootDir, it should be an address, in our example the rootDir was `/constants`
+
 ```json
 {
     "rules": {
-        "path-dependant-constant-naming/rule-name": 2
+        "path-dependant-constant-naming/constant-name": [ 2 , { rootDir : "/constants" } ]
     }
 }
 ```
-
-## Rules
-
-<!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
-<!-- end auto-generated rules list -->
 
 

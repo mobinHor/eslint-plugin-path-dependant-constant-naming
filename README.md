@@ -24,9 +24,8 @@ with-structure approach gains :
 **Lets get into it**
 
 ## The structure
-Let just explain it with an example
 
-consider this is our constants structure
+This is the structure...
 ```
 constants
         └── ├── domain-1-1
@@ -105,6 +104,7 @@ productCategoryPhoneBrands = [ productCategoryPhoneBrandSamsung ]
 ```
 Names are very longggg!!, right , thats why I recommended max 3 levels of depth.
 
+**And Thats it, we built the structure of our constants and the eslint rule will pass if and only if you obey the structure.**
 
 ## Installation
 

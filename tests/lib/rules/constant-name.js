@@ -13,7 +13,7 @@ ruleTester.run("no-underscore-var", rule, {
     invalid: [
         {
             code: "var branchTestX = 5;",
-            filename: "/work/apollo/apps/back-office/src/shared/constants/_refactoredFiles/branch/test/index.ts",
+            filename: "back-office/src/shared/constants/_refactoredFiles/branch/testTwo/index.ts",
             options: [{ rootDir: 'shared/constants/_refactoredFiles' }]
         },
     ],

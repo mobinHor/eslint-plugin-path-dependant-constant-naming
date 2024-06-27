@@ -19,7 +19,7 @@ with-structure approach gains :
     - easy to maintain => project is divided into logical domains and every new constant would belong to a domain.
     - no duplications => constraints on constant naming and domains.
     - constant identification => identify constant's domain by its name.
-    - identify constant's type => have constraints on constant's naming and divide `literal` and `non-liternal` values
+    - identify constant's type => have constraints on constant's naming and divide `primitive` and `non-primitive` values
 
 **Lets get into it**
 
@@ -83,13 +83,13 @@ for example if we are adding `brands` under `product -> category -> phone`, the 
 **productCategoryPhone**  or **PRODUCT_CATEGORY_PHONE**
 
 ## type
-For better identification, we decided to use two diffrent case-formats for our constants, according to best practices, the `SCREAMING_SNAKE_CASE` is suitable for `literal` values and the `camelCase` is good for `none-literal`(object or array).
+For better identification, we decided to use two diffrent case-formats for our constants, according to best practices, the `SCREAMING_SNAKE_CASE` is suitable for `primitive` values and the `camelCase` is good for `none-primitive`(object or array).
 
 so there are only two options in naming a constant
 
-  > SCREAMING_SNAKE_CASE for literals
+  > SCREAMING_SNAKE_CASE for primitive values
   
-  > camelCase for none-literals
+  > camelCase for none-primitive values
 
 If we combine these two rules with a real-world example, we would have :
 ```

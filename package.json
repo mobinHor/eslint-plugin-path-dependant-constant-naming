@@ -1,7 +1,11 @@
 {
   "name": "eslint-plugin-path-dependant-constant-naming",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "rules for constants",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobinHor/eslint-plugin-path-dependant-constant-naming"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
